@@ -3,6 +3,7 @@ package ru.karpenkodi.game;
 import ru.karpenkodi.game.gfx.Colours;
 import ru.karpenkodi.game.gfx.Screen;
 import ru.karpenkodi.game.gfx.SpriteSheet;
+import ru.karpenkodi.game.gfx.Font;
 import sun.security.ssl.HandshakeInStream;
 
 import javax.swing.*;
@@ -149,14 +150,16 @@ public class Game extends Canvas implements Runnable {
             for (int x = 0; x < 32; x++) {
                 boolean flipX = x % 2 == 0;
                 boolean flipY = y % 2 == 0;
-                screen.render(x << 3, y << 3, 0, Colours.get(555, 505, 055, 550), flipX, flipY);
+                screen.render(x << 3, y << 3, 0, Colours.get(555, -1, -1, 550), flipX, flipY);
             }
         }
+
+        Font.render("Привет", screen,0, 0,Colours.get(000, -1, -1, 555));
 
         for (int y = 0; y < screen.height; y++) {
             for (int x = 0; x < screen.width; x++) {
                 int colourCode = screen.pixels[x+y * screen.width];
-                if (colourCode < 255) pixels[x+y * WIDTH] = colours[colourCode];
+                if (colourCode < 215) pixels[x+y * WIDTH] = colours[colourCode];
             }
         }
         Graphics g = bs.getDrawGraphics();
