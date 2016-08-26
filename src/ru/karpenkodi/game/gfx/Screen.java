@@ -42,13 +42,13 @@ public class Screen {
                 if (xMin < 0) xMin = 0;
                 if (xMax > width) xMax = width;
 
-                int tileIndex = (xTile & (MAP_WIDTH_MASK)) + (yTile &(MAP_WIDTH_MASK)) * MAP_WIDTH;
+                int tileIndex = (xTile & (MAP_WIDTH_MASK)) + (yTile & (MAP_WIDTH_MASK)) * MAP_WIDTH;
 
-                for (int y=yMin; y<yMax; y++){
-                    int sheetPixel = ((y+yOffset)&7)*sheet.width + ((xMin +xOffset) &7);
-                    int tilePixel = offset + xMin + y*row;
-                    for (int x=xMin; x< xMax; x++){
-                        int colour = tileIndex*4 + sheet.pixels[sheetPixel++];
+                for (int y = yMin; y < yMax; y++) {
+                    int sheetPixel = ((y + yOffset) & 7) * sheet.width + ((xMin + xOffset) & 7);
+                    int tilePixel = offset + xMin + y * row;
+                    for (int x = xMin; x < xMax; x++) {
+                        int colour = tileIndex * 4 + sheet.pixels[sheetPixel++];
                         pixels[tilePixel++] = colours[colour];
                     }
                 }

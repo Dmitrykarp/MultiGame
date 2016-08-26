@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java" line="89" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java" line="91" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bff2c097-64b3-43b5-9a20-36c1f1d1e661" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/sprite_sheet.png" afterPath="$PROJECT_DIR$/res/sprite_sheet.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java" afterPath="$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/SpriteSheet.java" afterPath="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/SpriteSheet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/Screen.java" afterPath="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/Screen.java" />
     </list>
     <ignored path="MultiplayerGame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,15 +33,33 @@
         <entry file="file://$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.40419582">
-              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#3389#3390#0" expanded="true" />
-                <element signature="e#3423#3424#0" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#3721#3722#0" expanded="true" />
+                <element signature="e#3755#3756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/karpenkodi/game/InputHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +108,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/SpriteSheet.java" />
-        <option value="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/Screen.java" />
         <option value="$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java" />
+        <option value="$PROJECT_DIR$/src/ru/karpenkodi/game/InputHandler.java" />
+        <option value="$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/Screen.java" />
       </list>
     </option>
   </component>
@@ -664,15 +682,15 @@
       <created>1472224245780</created>
       <option name="number" value="Default" />
       <updated>1472224245780</updated>
-      <workItem from="1472224247782" duration="8852000" />
+      <workItem from="1472224247782" duration="10736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8852000" />
+    <option name="totallyTimeSpent" value="10736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1934" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -712,6 +730,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ru/karpenkodi/game/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/karpenkodi/game/gfx/SpriteSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -733,15 +769,13 @@
     <entry file="file://$PROJECT_DIR$/src/ru/karpenkodi/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40419582">
-          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#3389#3390#0" expanded="true" />
-            <element signature="e#3423#3424#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3755#3756#0" expanded="true" />
           </folding>
         </state>
       </provider>
