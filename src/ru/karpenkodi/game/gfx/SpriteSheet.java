@@ -1,9 +1,9 @@
 package ru.karpenkodi.game.gfx;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+
+import javax.imageio.ImageIO;
 
 public class SpriteSheet {
 
@@ -21,7 +21,6 @@ public class SpriteSheet {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         if (image == null) {
             return;
         }
@@ -36,7 +35,7 @@ public class SpriteSheet {
             pixels[i] = (pixels[i] & 0xff) / 64;
         }
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 8; i++){
             System.out.println(pixels[i]);
         }
     }
