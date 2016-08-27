@@ -1,14 +1,21 @@
 package ru.karpenkodi.game.level;
 
+import ru.karpenkodi.game.enteties.Entity;
 import ru.karpenkodi.game.gfx.Colours;
 import ru.karpenkodi.game.gfx.Screen;
 import ru.karpenkodi.game.level.tiles.Tile;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Level {
 
     private byte[] tiles;
     public int width;
     public int height;
+    public List<Entity> entities = new ArrayList<Entity>();
+
 
     public Level(int width, int height) {
         this.width = width;
@@ -31,7 +38,9 @@ public class Level {
     }
 
     public void tick(){
-
+        for (Entity e: entities){
+            e.tick();
+        }
     }
 
     public void renderTiles(Screen screen, int xOffset, int yOffset) {
@@ -50,9 +59,19 @@ public class Level {
         }
     }
 
+    public void renderEntities(Screen screen){
+        for (Entity e: entities){
+            e.render(screen);
+        }
+    }
+
     private Tile getTile(int x, int y) {
         if (x < 0 || x > width || y <0 || y> height) return Tile.VOID;
         return Tile.tiles[tiles[x+y*width]];
+    }
+
+    public void addEntity(Entity entity){
+        this.entities.add(entity);
     }
 
 
